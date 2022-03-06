@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+	background: black;
+}
+img{
+	width: 100%;
+}
+/*-Navbar start-*/
+.navbar{
+	position: fixed;
+	background: black;
+	width: 100%;
+	top: 0;
+}
+.navbar img{
+	width: 62px;
+	padding-top: 5px;
+}
+.navbar ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+.navbar ul li{
+	float: left;
+}
+.navbar li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px 18px;
+	display: block;
+}
+.navbar li a:hover{
+	background: dodgerblue;
+}
+.input{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.input .submit input{
+	border: 1px solid white;
+	background: black;
+}
+.input input{
+	margin: 0 6px;
+	padding: 8px 10px;
+	color: white;
+	background: dodgerblue;
+	border: none;
+	border-radius: 4px;
+}
+/*-Navbar End-*/
+/*home section start--*/
+.home-section{
+	display: flex;
+	padding: 40px 0;
+}
+.home-text{
+	color: white;
+	padding: 20px 30px 0px 40px;
+}
+.home-text a{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
+.home-text h1{
+	font-size: 50px;
+}
+.home-text input{
+	border: none;
+	background: dodgerblue;
+	color: white;
+	padding: 8px 10px;
+	border-radius: 4px;
+}
+.home-content img{
+}
+/*- home section end-*/
+/*- about section start-*/
+.all-article{
+	display: flex;
+	color: white;
+	padding: 35px 0;
+}
+.all-article p{
+	padding: 10px 0;
+}
+.article-content{
+	padding: 25px;
+}
+.article-content input{
+	padding: 8px;
+	background: orange;
+	border: none;
+	border-radius: 5px;
+}
+.article-content input:hover{
+	background: white;
+	border: none;
+	border-radius: 5px;
+}
+/*- about section end-*/
+
+.blog{
+	background: url(images/p.jpg);
+	background-size: 100% 100%;
+	margin-top: 50px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+.blog-content{
+	font-size: 50px;
+	padding: 90px 0 90px 150px;
+	float: left;
+}
+.blog-input input{
+	float: right;
+	margin: 160px 150px 0 0;
+	padding: 13px 15px;
+	font-size: 18px;
+	background: white;
+	border: none;
+	border-radius: 6px;
+}
+.blog-input input:hover{
+	color: white;
+	background: blue;
+}
+/*- contact section start-*/
+.contact-section{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	margin: 80px 0;
+}
+.contact-section input{
+	font-size: 20px;
+	padding: 7px;
+	border-radius: 6px;
+}
+.contact-section a input{
+	background: dodgerblue;
+	border: none;
+}
+/*- contact section end-*/
+/*- footer section start-*/
+.footer-section{
+	display: flex;
+	color: white;
+	background: url(images/j.jpg);
+	background-size: cover;
+}
+.footer-section img{
+	width: 130px;
+}
+#footer-content{
+	padding: 20px 90px;
+}
+#footer-content .text1:hover{
+	padding-left: 9px;
+	color: dodgerblue;
+}
+#footer-content input{
+	padding: 8px 10px;
+	border-radius: 6px;
+	border: none;
+}
+.end-design{
+	color: white;
+}
+/*- footer section end-*/

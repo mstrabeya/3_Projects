@@ -1,0 +1,19 @@
+/*- service section start-*/
+.service-section{
+	background: dodgerblue;
+	width: 70%;
+	height: 200px;
+	border-radius: 0 70px 70px 0;
+	text-align: center;
+}
+.service-content{
+	background: skyblue;
+	height: 200px;
+	width: 90%;
+	border-radius: 0 70px 70px 0;
+}
+.service-content h1{
+	font-size: 45px;
+	padding-top: 60px;
+}
+/*- Service section end-*/
